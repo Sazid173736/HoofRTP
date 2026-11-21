@@ -1,0 +1,32 @@
+gui-title: "&d&lHoofMC"
+teleport-delay-seconds: 5
+cooldown-seconds: 60
+max-attempts: 25
+
+items:
+  overworld:
+    name: "&a&lOverworld"
+    lore: "&7Click to randomly teleport in Overworld!"
+  nether:
+    name: "&c&lNether"
+    lore: "&7Click to randomly teleport in Nether!"
+  end:
+    name: "&e&lThe End"
+    lore: "&7Click to randomly teleport in The End!"
+
+worlds:
+  overworld:
+    enabled: true
+    world-name: "world"
+    min-radius: 250
+    max-radius: 5000
+  nether:
+    enabled: true
+    world-name: "world_nether"
+    min-radius: 150
+    max-radius: 2500
+  end:
+    enabled: false
+    world-name: "world_the_end"
+    min-radius: 250
+    max-radius: 3000

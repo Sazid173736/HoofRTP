@@ -1,0 +1,13 @@
+name: HoofRTP
+version: 1.0.0
+main: com.hoofmc.hoofrtp.HoofRTP
+api-version: "1.21"
+commands:
+  rtp:
+    description: Open HoofMC Random Teleport GUI
+    usage: /rtp [world]
+    permission: hoofrtp.use
+permissions:
+  hoofrtp.use:
+    description: Allows using /rtp
+    default: true
